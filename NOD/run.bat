@@ -1,2 +1,2 @@
-del /F /Q .\out\*
-robot -d "./out" .\testsuites\04__ETE___BanHang\Hoa_don_thuong\HH_thuong_co_DVT\Basic_co_KH
+del /F /Q .\reports\*
+robot -T -d reports -n noncritical --variable env:live1 --variable remote:http://192.168.2.58:9999/wd/hub -i AA test

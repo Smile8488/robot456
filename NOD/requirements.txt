@@ -1,0 +1,6 @@
+robotframework
+robotframework-StringFormat
+robotframework-Selenium
+robotframework-jsonlibrary
+robotframework-requests
+robotframework-SeleniumLibrary
