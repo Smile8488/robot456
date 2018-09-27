@@ -1,5 +1,5 @@
 *** Settings ***
-Suite Setup       Init Test Environment    ${env}    {remote}
+Suite Setup       Init Test Environment    {remote}
 Force Tags        INIT
 Library           SeleniumLibrary
 Library           Collections
@@ -10,13 +10,13 @@ Resource          ../config/env_product/envi.robot
 Open br1
     [Tags]    AA
     [Template]
-    Open Browser    ${URL}    ${BROWSER}
+    Open Browser    https://gist.github.com/    ${BROWSER}
     Close All Browsers
 
 Open br2
     [Tags]    BB
     [Template]
-    Open Browser    ${URL}    ${BROWSER}
+    Open Browser    https://www.google.com/    ${BROWSER}
     Close All Browsers
 
 *** Keywords ***
