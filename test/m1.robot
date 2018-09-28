@@ -7,10 +7,12 @@ Library           OperatingSystem
 Resource          ../config/env_product/envi.robot
 
 *** Test Cases ***
-Open br2
-    [Tags]    BB
+Open br1
+    [Tags]    A1
     [Template]
-    Open Browser    https://www.google.com/    ${BROWSER}
+    Open Browser    https://gist.github.com/    ${BROWSER}
     Close All Browsers
+
+
 
 *** Keywords ***

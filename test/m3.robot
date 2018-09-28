@@ -8,15 +8,11 @@ Resource          ../config/env_product/envi.robot
 
 *** Test Cases ***
 Open br1
-    [Tags]    AA
+    [Tags]    A3
     [Template]
     Open Browser    https://gist.github.com/    ${BROWSER}
     Close All Browsers
 
-Open br2
-    [Tags]    BB
-    [Template]
-    Open Browser    https://www.google.com/    ${BROWSER}
-    Close All Browsers
+
 
 *** Keywords ***

@@ -1,18 +1,16 @@
 ==============================================================================
 Test                                                                          
 ==============================================================================
-Test.Mm                                                                       
+Test.M2                                                                       
 ==============================================================================
-Open br1                                                              | PASS |
-------------------------------------------------------------------------------
 Open br2                                                              | PASS |
 ------------------------------------------------------------------------------
-Test.Mm                                                               | PASS |
-2 critical tests, 2 passed, 0 failed
-2 tests total, 2 passed, 0 failed
+Test.M2                                                               | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
 ==============================================================================
 Test                                                                  | PASS |
-2 critical tests, 2 passed, 0 failed
-2 tests total, 2 passed, 0 failed
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
 ==============================================================================
-Output:  C:\Users\Citigo\MI\NOD\pabot_results\Test.Mm\output.xml
+Output:  C:\Users\Citigo\MI\NOD\pabot_results\Test.M2\output.xml

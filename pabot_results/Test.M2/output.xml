@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180928 15:11:24.907" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
+<suite source="C:\Users\Citigo\MI\NOD\test" id="s1" name="Test">
+<suite source="C:\Users\Citigo\MI\NOD\test\m2.robot" id="s1-s1" name="M2">
+<kw type="setup" name="Init Test Environment" library="envi">
+<arguments>
+<arg>{remote}</arg>
+</arguments>
+<kw name="Fill env" library="envi">
+<arguments>
+<arg>${remote}</arg>
+</arguments>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>\${BROWSER}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180928 15:11:25.082" level="INFO">${BROWSER} = chrome</msg>
+<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>\${REMOTE_URL}</arg>
+<arg>${remote}</arg>
+</arguments>
+<msg timestamp="20180928 15:11:25.082" level="INFO">${REMOTE_URL} = {remote}</msg>
+<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+</kw>
+<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+</kw>
+<kw name="Append To Environment Variable" library="OperatingSystem">
+<doc>Appends given ``values`` to environment variable ``name``.</doc>
+<arguments>
+<arg>PATH</arg>
+<arg>${EXECDIR}${/}drivers</arg>
+</arguments>
+<msg timestamp="20180928 15:11:25.089" level="INFO">Environment variable 'PATH' set to value 'C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python27\Scripts;C:\Python27;C:\Program Files\Git\cmd;C:\Users\Citigo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Citigo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Citigo\MI\NOD\drivers'.</msg>
+<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+</kw>
+<kw name="Set Screenshot Directory" library="SeleniumLibrary">
+<doc>Sets the directory for captured screenshots.</doc>
+<arguments>
+<arg>${EXECDIR}${/}out${/}failures</arg>
+</arguments>
+<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<doc>Sets the timeout that is used by various keywords.</doc>
+<arguments>
+<arg>45</arg>
+</arguments>
+<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.6s</arg>
+</arguments>
+<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+</kw>
+<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.082"></status>
+</kw>
+<test id="s1-s1-t1" name="Open br2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.google.com/</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180928 15:11:25.089" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" endtime="20180928 15:11:34.737" starttime="20180928 15:11:25.089"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20180928 15:11:37.616" starttime="20180928 15:11:34.737"></status>
+</kw>
+<tags>
+<tag>A2</tag>
+<tag>INIT</tag>
+</tags>
+<status status="PASS" endtime="20180928 15:11:37.616" critical="yes" starttime="20180928 15:11:25.089"></status>
+</test>
+<status status="PASS" endtime="20180928 15:11:37.616" starttime="20180928 15:11:24.933"></status>
+</suite>
+<status status="PASS" endtime="20180928 15:11:37.626" starttime="20180928 15:11:24.909"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">A2</stat>
+<stat fail="0" pass="1">INIT</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="1">Test</stat>
+<stat fail="0" id="s1-s1" name="M2" pass="1">Test.M2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
