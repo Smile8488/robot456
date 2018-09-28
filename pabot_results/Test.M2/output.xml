@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180928 15:11:24.907" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
+<robot generated="20180928 15:34:47.351" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
 <suite source="C:\Users\Citigo\MI\NOD\test" id="s1" name="Test">
 <suite source="C:\Users\Citigo\MI\NOD\test\m2.robot" id="s1-s1" name="M2">
 <kw type="setup" name="Init Test Environment" library="envi">
@@ -16,8 +16,8 @@
 <arg>\${BROWSER}</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20180928 15:11:25.082" level="INFO">${BROWSER} = chrome</msg>
-<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+<msg timestamp="20180928 15:34:47.618" level="INFO">${BROWSER} = chrome</msg>
+<status status="PASS" endtime="20180928 15:34:47.618" starttime="20180928 15:34:47.618"></status>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <doc>Makes a variable available globally in all tests and suites.</doc>
@@ -25,10 +25,10 @@
 <arg>\${REMOTE_URL}</arg>
 <arg>${remote}</arg>
 </arguments>
-<msg timestamp="20180928 15:11:25.082" level="INFO">${REMOTE_URL} = {remote}</msg>
-<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+<msg timestamp="20180928 15:34:47.620" level="INFO">${REMOTE_URL} = {remote}</msg>
+<status status="PASS" endtime="20180928 15:34:47.620" starttime="20180928 15:34:47.620"></status>
 </kw>
-<status status="PASS" endtime="20180928 15:11:25.082" starttime="20180928 15:11:25.082"></status>
+<status status="PASS" endtime="20180928 15:34:47.620" starttime="20180928 15:34:47.618"></status>
 </kw>
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
@@ -36,31 +36,31 @@
 <arg>PATH</arg>
 <arg>${EXECDIR}${/}drivers</arg>
 </arguments>
-<msg timestamp="20180928 15:11:25.089" level="INFO">Environment variable 'PATH' set to value 'C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python27\Scripts;C:\Python27;C:\Program Files\Git\cmd;C:\Users\Citigo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Citigo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Citigo\MI\NOD\drivers'.</msg>
-<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+<msg timestamp="20180928 15:34:47.621" level="INFO">Environment variable 'PATH' set to value 'C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python27\Scripts;C:\Python27;C:\Program Files\Git\cmd;C:\Users\Citigo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Citigo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Citigo\MI\NOD\drivers'.</msg>
+<status status="PASS" endtime="20180928 15:34:47.621" starttime="20180928 15:34:47.620"></status>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <doc>Sets the directory for captured screenshots.</doc>
 <arguments>
 <arg>${EXECDIR}${/}out${/}failures</arg>
 </arguments>
-<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+<status status="PASS" endtime="20180928 15:34:47.621" starttime="20180928 15:34:47.621"></status>
 </kw>
 <kw name="Set Selenium Timeout" library="SeleniumLibrary">
 <doc>Sets the timeout that is used by various keywords.</doc>
 <arguments>
 <arg>45</arg>
 </arguments>
-<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+<status status="PASS" endtime="20180928 15:34:47.622" starttime="20180928 15:34:47.622"></status>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
 <arg>0.6s</arg>
 </arguments>
-<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.089"></status>
+<status status="PASS" endtime="20180928 15:34:47.623" starttime="20180928 15:34:47.623"></status>
 </kw>
-<status status="PASS" endtime="20180928 15:11:25.089" starttime="20180928 15:11:25.082"></status>
+<status status="PASS" endtime="20180928 15:34:47.623" starttime="20180928 15:34:47.618"></status>
 </kw>
 <test id="s1-s1-t1" name="Open br2">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -69,22 +69,22 @@
 <arg>https://www.google.com/</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20180928 15:11:25.089" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
-<status status="PASS" endtime="20180928 15:11:34.737" starttime="20180928 15:11:25.089"></status>
+<msg timestamp="20180928 15:34:47.624" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" endtime="20180928 15:35:01.835" starttime="20180928 15:34:47.624"></status>
 </kw>
 <kw name="Close All Browsers" library="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" endtime="20180928 15:11:37.616" starttime="20180928 15:11:34.737"></status>
+<status status="PASS" endtime="20180928 15:35:04.747" starttime="20180928 15:35:01.835"></status>
 </kw>
 <tags>
 <tag>A2</tag>
 <tag>INIT</tag>
 </tags>
-<status status="PASS" endtime="20180928 15:11:37.616" critical="yes" starttime="20180928 15:11:25.089"></status>
+<status status="PASS" endtime="20180928 15:35:04.747" critical="yes" starttime="20180928 15:34:47.623"></status>
 </test>
-<status status="PASS" endtime="20180928 15:11:37.616" starttime="20180928 15:11:24.933"></status>
+<status status="PASS" endtime="20180928 15:35:04.749" starttime="20180928 15:34:47.388"></status>
 </suite>
-<status status="PASS" endtime="20180928 15:11:37.626" starttime="20180928 15:11:24.909"></status>
+<status status="PASS" endtime="20180928 15:35:04.821" starttime="20180928 15:34:47.353"></status>
 </suite>
 <statistics>
 <total>

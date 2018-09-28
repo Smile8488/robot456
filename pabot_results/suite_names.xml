@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180928 15:11:21.551" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
+<robot generated="20180928 15:34:44.075" generator="Robot 3.0.4 (Python 2.7.14 on win32)">
 <suite source="C:\Users\Citigo\MI\NOD\test" id="s1" name="Test">
 <suite source="C:\Users\Citigo\MI\NOD\test\m1.robot" id="s1-s1" name="M1">
 <kw type="setup" name="Init Test Environment" library="envi">
@@ -8,22 +8,22 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.523" starttime="20180928 15:11:24.523"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.871" starttime="20180928 15:34:46.871"></status>
 </kw>
-<status status="PASS" endtime="20180928 15:11:24.523" starttime="20180928 15:11:24.521"></status>
+<status status="PASS" endtime="20180928 15:34:46.871" starttime="20180928 15:34:46.867"></status>
 </kw>
 <test id="s1-s1-t1" name="Open br1">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.523" starttime="20180928 15:11:24.523"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.871" starttime="20180928 15:34:46.871"></status>
 </kw>
 <tags>
 <tag>A1</tag>
 <tag>INIT</tag>
 </tags>
-<status status="PASS" endtime="20180928 15:11:24.523" critical="yes" starttime="20180928 15:11:24.523"></status>
+<status status="PASS" endtime="20180928 15:34:46.874" critical="yes" starttime="20180928 15:34:46.871"></status>
 </test>
-<status status="PASS" endtime="20180928 15:11:24.523" starttime="20180928 15:11:21.597"></status>
+<status status="PASS" endtime="20180928 15:34:46.875" starttime="20180928 15:34:44.131"></status>
 </suite>
 <suite source="C:\Users\Citigo\MI\NOD\test\m2.robot" id="s1-s2" name="M2">
 <kw type="setup" name="Init Test Environment" library="envi">
@@ -32,22 +32,22 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.529" starttime="20180928 15:11:24.529"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.881" starttime="20180928 15:34:46.881"></status>
 </kw>
-<status status="PASS" endtime="20180928 15:11:24.529" starttime="20180928 15:11:24.529"></status>
+<status status="PASS" endtime="20180928 15:34:46.881" starttime="20180928 15:34:46.881"></status>
 </kw>
 <test id="s1-s2-t1" name="Open br2">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.529" starttime="20180928 15:11:24.529"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.885" starttime="20180928 15:34:46.885"></status>
 </kw>
 <tags>
 <tag>A2</tag>
 <tag>INIT</tag>
 </tags>
-<status status="PASS" endtime="20180928 15:11:24.529" critical="yes" starttime="20180928 15:11:24.529"></status>
+<status status="PASS" endtime="20180928 15:34:46.885" critical="yes" starttime="20180928 15:34:46.881"></status>
 </test>
-<status status="PASS" endtime="20180928 15:11:24.529" starttime="20180928 15:11:24.523"></status>
+<status status="PASS" endtime="20180928 15:34:46.885" starttime="20180928 15:34:46.876"></status>
 </suite>
 <suite source="C:\Users\Citigo\MI\NOD\test\m3.robot" id="s1-s3" name="M3">
 <kw type="setup" name="Init Test Environment" library="envi">
@@ -56,24 +56,24 @@
 </arguments>
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.533" starttime="20180928 15:11:24.533"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.896" starttime="20180928 15:34:46.896"></status>
 </kw>
-<status status="PASS" endtime="20180928 15:11:24.533" starttime="20180928 15:11:24.533"></status>
+<status status="PASS" endtime="20180928 15:34:46.896" starttime="20180928 15:34:46.895"></status>
 </kw>
 <test id="s1-s3-t1" name="Open br1">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" endtime="20180928 15:11:24.539" starttime="20180928 15:11:24.539"></status>
+<status status="NOT_RUN" endtime="20180928 15:34:46.896" starttime="20180928 15:34:46.896"></status>
 </kw>
 <tags>
 <tag>A3</tag>
 <tag>INIT</tag>
 </tags>
-<status status="PASS" endtime="20180928 15:11:24.539" critical="yes" starttime="20180928 15:11:24.533"></status>
+<status status="PASS" endtime="20180928 15:34:46.897" critical="yes" starttime="20180928 15:34:46.896"></status>
 </test>
-<status status="PASS" endtime="20180928 15:11:24.539" starttime="20180928 15:11:24.533"></status>
+<status status="PASS" endtime="20180928 15:34:46.897" starttime="20180928 15:34:46.885"></status>
 </suite>
-<status status="PASS" endtime="20180928 15:11:24.540" starttime="20180928 15:11:21.554"></status>
+<status status="PASS" endtime="20180928 15:34:46.898" starttime="20180928 15:34:44.077"></status>
 </suite>
 <statistics>
 <total>
@@ -94,10 +94,10 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180928 15:11:21.419" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m1.robot': Non-existing setting ''.</msg>
-<msg timestamp="20180928 15:11:21.420" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m2.robot': Non-existing setting ''.</msg>
-<msg timestamp="20180928 15:11:21.422" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m3.robot': Non-existing setting ''.</msg>
-<msg timestamp="20180928 15:11:21.423" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m4.robot': Non-existing setting ''.</msg>
-<msg timestamp="20180928 15:11:24.509" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\config\env_product\envi.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180928 15:34:43.980" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m1.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180928 15:34:43.980" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m2.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180928 15:34:43.980" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m3.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180928 15:34:43.980" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\test\m4.robot': Non-existing setting ''.</msg>
+<msg timestamp="20180928 15:34:46.858" level="ERROR">Error in file 'C:\Users\Citigo\MI\NOD\config\env_product\envi.robot': Non-existing setting ''.</msg>
 </errors>
 </robot>
